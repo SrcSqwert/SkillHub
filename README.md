@@ -27,3 +27,13 @@ SkillHub предоставляет мощное REST API, которое поз
    ```bash
    git clone [https://github.com/SrcSqwert/SkillHub.git](https://github.com/SrcSqwert/SkillHub.git)
    
+2. Перейдите в папку проекта:
+ ``bash
+cd SkillHub
+
+3. Примените миграции для настройки базы данных:
+   ``bash
+   dotnet ef database update
+4. Запустите сервер
+ ``bash
+dotnet run
