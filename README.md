@@ -21,19 +21,41 @@ SkillHub предоставляет мощное REST API, которое поз
 * **Архитектура:** Чистая RESTful архитектура с использованием DTO-моделей.
 
 ## 🚀 Как запустить
+
 Для развертывания API на локальной машине:
 
 1. Клонируйте репозиторий:
-   ```bash
-   git clone [https://github.com/SrcSqwert/SkillHub.git](https://github.com/SrcSqwert/SkillHub.git)
-   
+
+```bash
+git clone https://github.com/SrcSqwert/SkillHub.git
+```
+
 2. Перейдите в папку проекта:
- ```bash
+
+```bash
 cd SkillHub
+```
 
 3. Примените миграции для настройки базы данных:
-   ```bash
-   dotnet ef database update
-4. Запустите сервер
- ```bash
+
+```bash
+dotnet ef database update
+```
+
+4. Запустите сервер:
+
+```bash
 dotnet run
+```
+
+После запуска API будет доступно по адресу:
+
+```
+http://localhost:5000
+```
+
+Swagger-документация:
+
+```
+http://localhost:5000/swagger
+```
